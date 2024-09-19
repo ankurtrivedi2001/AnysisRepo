@@ -1,0 +1,233 @@
+html{
+    background: black;
+}
+header {
+  background-color: #313131;
+  height: 5.5rem;
+}
+.text .light-theme * {
+    color: #fff;
+}
+.header__search-content.CoveoSearchInterface .CoveoSearchbox .magic-box .magic-box-input input {
+    border-bottom: thin solid #a7a7aa;
+    padding-right: 4rem;
+}
+.header__search-content.CoveoSearchInterface .CoveoSearchbox .magic-box .magic-box-input .magic-box-underlay, .header__search-content.CoveoSearchInterface .CoveoSearchbox .magic-box .magic-box-input input {
+    padding: 0 1.5rem .333rem 0;
+    height: auto;
+    font-family: Montserrat, sans-serif;
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: 1.333;
+    border: none;
+    background: none;
+    color: #fff;
+}
+.navitem {
+  padding: 2rem;
+  list-style-type: none;
+  color: white;
+  display: flex; /* Make the navitem a flex container */
+  align-items: center; /* Vertically center content */
+  position: relative;
+  font-size: .875rem;
+}
+h2{
+    padding-left: 0.6rem;
+    font-weight: 600;
+    margin-bottom: .75em;
+    font-family: Montserrat, sans-serif;
+}
+ol {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+#Ansys_logo {
+  height: 2rem;
+}
+.chevron {
+  margin-left: 0.5rem; /* Add some space between text and chevron */
+  display: inline-block;
+}
+
+.chevron::before {
+  border-style: solid;
+  border-width: 0.25em 0.25em 0 0;
+  content: "";
+  display: inline-block;
+  height: 0.45em;
+  transform: rotate(
+    45deg
+  ); /* Correct the rotation to look like a chevron pointing down */
+  vertical-align: middle;
+  width: 0.45em;
+  margin-left: 0.5rem; /* Add space from the text */
+  border-color: white;
+}
+.chevron.bottom:before {
+  top: 50%;
+  transform: rotate(135deg);
+}
+
+/* Fix alignment for the "Why Ansys" and chevron */
+.navitem:first-of-type {
+  display: flex;
+  align-items: center;
+}
+.bg-bkg-transparent {
+  border: 10px solid hsla(0, 0%, 58.8%, 0.5);
+  background: hsla(0, 0%, 96.1%, 0.85);
+  -webkit-backdrop-filter: blur(5px) brightness(85%);
+  backdrop-filter: blur(5px) brightness(85%);
+}
+.form__two-column .ansys-form--normal .legal-text-others label,
+.form__two-column .ansys-form--normal .legal-text-us label,
+.form__two-column .ansys-form--normal .mktgmsg label {
+  text-transform: none;
+  font: 600 14px / 24px Montserrat, sans-serif;
+  text-align: center;
+}
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.ansys-form--normal .form-group.floating-label input {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 4px;
+  /* padding: 10px; */
+  width: 87%;
+  /* height: 36px; */
+  border: 2px solid #d9d8d6;
+  color: #000 !important;
+  -webkit-box-shadow: #fff 0 0 0 30px inset !important;
+  box-shadow: inset 0 0 0 30px #fff !important;
+  -webkit-text-fill-color: #000 !important;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.333em + 2rem + 2px);
+    padding: 1rem;
+    font-family: Montserrat, sans-serif;
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: 1.333;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0;
+    -webkit-transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+}
+.ansys-form--normal .form-group.floating-label {
+    position: relative;
+    width: 100%;
+}
+.ansys-form--normal .error-message-box.error {
+    text-transform: uppercase;
+    color: #ff6e6e;
+    font: 600 9px / 10px Montserrat, sans-serif;
+    text-align: left;
+}
+.col-md-6{
+    flex: 0 0 50%;
+    /* padding-left: 15px; */
+}
+.ansys-form--normal .form-group.floating-label {
+    position: relative;
+    width: 100%;
+}
+.ansys-form--normal input, .ansys-form--normal option, .ansys-form--normal select {
+    padding: 10px;
+    /* font: 600 1pc / 23px Montserrat, sans-serif; */
+    line-height: 1.25em;
+    background-color: #fff;
+    color: #000;
+    width: 95%;
+    height: auto;
+    border: 2px solid #d9d8d6;
+    border-radius: 4px;
+}
+.ansys-form--normal.form-wrapper {
+    padding: 0;
+}
+.input-fix{
+    margin-top:.5rem;
+    width: 98%;
+}
+input{
+    width:15px;
+}
+fieldset{
+    padding:1.4rem;
+    border: none;
+}
+.ansys-form--normal .form-container .action-container {
+    text-align: left;
+}
+.action-container{
+    margin-left: 1.5rem;
+}
+.btn-primary {
+    color: #151617;
+    background-color: #ffb71b;
+    border-color: #ffb71b;
+}
+.btn {
+    display: inline-block;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 1rem;
+    font-size: .75rem;
+    line-height: 1.333;
+    border-radius: 0;
+    -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+}
+.btn {
+    background-color: orange;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-decoration: none;
+    min-width: 185px;
+    min-height: 50px;
+    padding: 1rem 1.25rem;
+}
+.btn:after {
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    margin-left: 8px;
+    border-color: transparent transparent transparent currentcolor;
+    border-style: solid;
+    border-width: 3px 0 3px 4px;
+    opacity: .8;
+    width: 0;
+    height: 0;
+    content: "";
+}
+.form__two-column bg-bkg-transparent form-wrapper-outer {
+    opacity: 1;
+}
